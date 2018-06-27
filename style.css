@@ -10,9 +10,20 @@ background {
 }
 
 .main-title {
-  font-size: 8rem !important;
   font-family: 'Miss Fajardose', cursive !important;
   font-weight: lighter;
+}
+
+@media screen and (min-width: 769px) {
+  .main-title {
+    font-size: 8rem !important;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .main-title {
+    font-size: 5rem !important;
+  }
 }
 
 .title {
