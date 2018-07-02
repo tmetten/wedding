@@ -1,0 +1,9 @@
+{
+  "name": "Tanja \u0026 Tom are getting married",
+  "short_name": "Tanja \u0026 Tom",
+  "theme_color": "#e6c8e6",
+  "background_color": "#e6c8e6",
+  "display": "browser",
+  "Scope": "/",
+  "start_url": "/"
+}
