@@ -9,10 +9,25 @@
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
   <title>Tanja &amp; Tom</title>
-  <link defer rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
-  <link defer href="https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script|Handlee" rel="stylesheet">
-  <link defer rel="stylesheet" type="text/css" href="style.css">
-  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <style>
+    background {
+      background-image: radial-gradient(at center center, rgb(255, 255, 255) 75%, rgb(230, 200, 230) 100%);
+      position: fixed;
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+
+  <link rel='preload' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css' as='style' onload="this.onload=null;this.rel='stylesheet'">
+  <link rel='preload' href='https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script|Handlee' as='style' onload="this.onload=null;this.rel='stylesheet'">
+  <link rel='preload' href='style.css' as='style' onload="this.onload=null;this.rel='stylesheet'">
+
+  <noscript>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script|Handlee" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </noscript>
 </head>
 
 <body class="is-size-3">
